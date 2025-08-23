@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joshi Hospital, Shirdi</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">
+          <i class="fas fa-hospital"></i>
+          <h1>Joshi Hospital</h1>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#doctors" class="nav-link">Doctors</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Welcome to Joshi Hospital, Shirdi</h2>
+      <p>Serving patients since 1982 with expert healthcare and compassionate service.</p>
+      <div class="hero-buttons">
+        <button class="btn btn-primary" onclick="showAlert()">Learn More</button>
+        <button class="btn btn-secondary">Book Appointment</button>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="https://images.unsplash.com/photo-1551601651-2a8555f1a136?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Hospital Interior">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Joshi Hospital</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>Since 1982, Joshi Hospital has been a cornerstone of healthcare in Shirdi, providing comprehensive medical services with state-of-the-art facilities and compassionate care.</p>
+          <div class="stats">
+            <div class="stat">
+              <h3>40+</h3>
+              <p>Years of Service</p>
+            </div>
+            <div class="stat">
+              <h3>10,000+</h3>
+              <p>Patients Served</p>
+            </div>
+            <div class="stat">
+              <h3>50+</h3>
+              <p>Expert Doctors</p>
+            </div>
+          </div>
+        </div>
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Hospital Building">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <i class="fas fa-heartbeat"></i>
+          <h3>Cardiology</h3>
+          <p>Comprehensive heart care with advanced diagnostic and treatment options.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-brain"></i>
+          <h3>Neurology</h3>
+          <p>Expert neurological care for brain and nervous system disorders.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-bone"></i>
+          <h3>Orthopedics</h3>
+          <p>Specialized treatment for bone, joint, and muscle conditions.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-child"></i>
+          <h3>Pediatrics</h3>
+          <p>Dedicated healthcare services for infants, children, and adolescents.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-eye"></i>
+          <h3>Ophthalmology</h3>
+          <p>Complete eye care services with modern equipment and techniques.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-stethoscope"></i>
+          <h3>General Medicine</h3>
+          <p>Comprehensive primary healthcare for all age groups.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Doctors Section -->
+  <section id="doctors" class="doctors">
+    <div class="container">
+      <h2>Our Expert Doctors</h2>
+      <div class="doctors-grid">
+        <div class="doctor-card">
+          <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Dr. Rajesh Joshi">
+          <h3>Dr. Rajesh Joshi</h3>
+          <p>Chief Medical Officer</p>
+          <p>MBBS, MD - 25+ years experience</p>
+        </div>
+        <div class="doctor-card">
+          <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Dr. Priya Sharma">
+          <h3>Dr. Priya Sharma</h3>
+          <p>Cardiologist</p>
+          <p>MBBS, DM Cardiology - 15+ years experience</p>
+        </div>
+        <div class="doctor-card">
+          <img src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Dr. Amit Kumar">
+          <h3>Dr. Amit Kumar</h3>
+          <p>Orthopedic Surgeon</p>
+          <p>MBBS, MS Orthopedics - 20+ years experience</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="gallery">
+    <div class="container">
+      <h2>Hospital Gallery</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1538108149393-fbbd81895907?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Reception Area">
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Operation Theater">
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1551601651-2a8555f1a136?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Hospital Corridor">
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Patient Room">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h3>Address</h3>
+              <p>Near Sai Baba Temple, Shirdi, Maharashtra 423109</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <h3>Phone</h3>
+              <p>+91 9876543210</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h3>Email</h3>
+              <p>info@joshihospital.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-clock"></i>
+            <div>
+              <h3>Hours</h3>
+              <p>24/7 Emergency Services</p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="tel" placeholder="Your Phone" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Joshi Hospital</h3>
+          <p>Providing quality healthcare services to the community since 1982.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Emergency</h3>
+          <p><strong>24/7 Emergency: +91 9876543210</strong></p>
+          <p>Ambulance: +91 9876543211</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Joshi Hospital, Shirdi | All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
